@@ -156,7 +156,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'appMesaServicio.User'
 
-STATIC_URL = os.path.join(BASE_DIR, '/static/')
+#STATIC_URL = os.path.join(BASE_DIR, '/static/')
+STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 
